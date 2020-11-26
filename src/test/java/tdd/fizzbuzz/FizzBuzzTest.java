@@ -55,9 +55,9 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_FizzBuzz_when_countOff_given_order_num_14(){
+    void should_return_FizzBuzz_when_countOff_given_order_num_15(){
         //give
-        int order = 14;
+        int order = 15;
         FizzBuzz fizzBuzz = new FizzBuzz();
         // when
         String actual = fizzBuzz.countOFF(order);
